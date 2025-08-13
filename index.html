@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> [💭] my mood journal </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1> 📃 my mood journal .., 💭</h1>
+
+  <div class="emotions">
+    <div class="emotion angry" data-emotion="Angry"><img src="images/angry.png" alt="Angry"></div>
+    <div class="emotion cry" data-emotion="Cry"><img src="images/cry.png" alt="Cry"></div>
+    <div class="emotion dontknow" data-emotion="Don't know"><img src="images/dontknow.png" alt="Don't know"></div>
+    <div class="emotion embarrassed" data-emotion="Embarrassed"><img src="images/embarrassed.png" alt="Embarrassed"></div>
+    <div class="emotion flushed" data-emotion="Flushed"><img src="images/flushed.png" alt="Flushed"></div>
+    <div class="emotion happy" data-emotion="Happy"><img src="images/happy.png" alt="Happy"></div>
+    <div class="emotion mid" data-emotion="Mid"><img src="images/mid.png" alt="Mid"></div>
+    <div class="emotion shout" data-emotion="Shout"><img src="images/shout.png" alt="Shout"></div>
+  </div>
+
+  <div class="journal">
+    <div class="container">
+      <h3> 📝what happened tdy ?? </h3>
+      <textarea id="today" placeholder="type what happened here.., ✍🏻"></textarea>
+    </div>
+    <div class="container">
+      <h3> what went well ?? 💕 </h3>
+      <textarea id="wentWell" placeholder="write the good stuff !! 💖"></textarea>
+    </div>
+  </div>
+
+  <button id="saveBtn">💾 save my mood !! ( •̀ .̫ •́ )✧ </button>
+
+  <canvas id="confettiCanvas"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
