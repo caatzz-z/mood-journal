@@ -6,7 +6,6 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 20px;
-
   background: linear-gradient(270deg, #ffb6c1, #ffd76b, #86e3d0, #c586f2);
   background-size: 800% 800%;
   animation: gradientShift 20s ease infinite;
@@ -134,4 +133,14 @@ button:hover {
   width: 100%;
   height: 100%;
   z-index: 9999;
+}
+
+footer {
+  margin-top: 30px;
+  padding: 10px 20px;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  color: #fff;
+  text-shadow: 1px 1px 3px #333;
+  font-size: 10px;
 }
